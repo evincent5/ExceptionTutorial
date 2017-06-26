@@ -10,7 +10,7 @@ namespace ExceptionTutorial
     {
         public static void Inner()
         {
-            try
+            try  
             {
                 Console.WriteLine("Enter a number: ");
                 int FN = Int32.Parse(Console.ReadLine());
